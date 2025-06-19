@@ -129,7 +129,7 @@ export class DLMMPriceTracker {
         "MintB": this.tokenAddress.toBase58(),
       };
     } catch (error: any) {
-      console.error("[DLMM] Swap calculation failed:", error.message);
+      //console.error("[DLMM] Swap calculation failed:", error.message);
       return { error: `DLMM swap calculation failed: ${error.message}` };
     }
   }

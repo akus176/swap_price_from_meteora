@@ -56,7 +56,6 @@ export class DAMMPriceTracker {
       }
     }
 
-    console.log(`[DAMM] Found ${matchedPools.length} SOL-Token pools`);
     return matchedPools;
   }
 
